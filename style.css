@@ -88,7 +88,7 @@
     align-items: center;
     width: 100%;
     text-align: center;
-    color: red;
+    color: rgb(0, 255, 200);
     display: flex;
     justify-content: center;
 }
@@ -184,4 +184,100 @@
 .box-content{
     margin-left: 20px;
     margin-right: 20px;
+}
+footer{
+    width: 100%;
+    margin-top: 10px;
+    margin-inline-end: 10px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    height: 50px;
+    font-size: 0.9rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    font-size: 0.9rem;
+    display: block;
+    color: #dddddd;
+    margin-top: 10px;
+}
+ul p{
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+ul{
+    margin-top: 30px;
+}
+ul a:hover{
+    border-bottom: 0.2px solid white;
+    border-inline-end: #f3f3f3;
+    width: fit-content;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    height: 100px;
+    color: white;
+    border-top: 0.2px solid #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo3{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 60px;
+    width: 100px;
+    margin-right: 90px;
+
+}
+.foot-panel4{
+    background-color: #131A22;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul h2{
+    color: rgb(225, 222, 222);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+ul h6{
+    color: #b3afaf;
+    font-weight: 10;
+    font-size: 0.7rem;
+}
+ul{
+    margin: 15px;
+    margin-bottom: 80px
+}
+ul h2:hover{
+    border-bottom: 0.1px solid white;
+    width: fit-content;
+}
+ul h6:hover{
+    border-bottom: 0.1px solid white;
+    width: fit-content;
+}
+.foot-panel5{
+    height: 100px;
+    background-color: #131A22;
+    width: 100%;display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
